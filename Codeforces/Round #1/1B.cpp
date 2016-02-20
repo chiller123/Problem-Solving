@@ -6,7 +6,7 @@ using namespace std;
 
 string str;
 
-// foramt을 바꿔주는 구현 문제입니다.
+// format을 바꿔주는 구현 문제입니다.
 
 void typeA() {
 	int cIdx = str.find('C');

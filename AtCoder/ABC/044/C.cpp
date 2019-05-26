@@ -4,6 +4,8 @@ typedef long long ll;
 int N, A, num;
 ll dp[51][2501] = { 1 }, ans = 0;
 
+// DP
+// dp[j][k] : i개를 골랐을 때, 합이 k가 되는 경우의 수
 int main() {
   freopen("input.txt", "r", stdin);
   scanf("%d%d", &N, &A);
